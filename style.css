@@ -1,0 +1,78 @@
+html{
+    height: 100%;
+}
+body{
+
+    background-image: linear-gradient(blue,black);
+    /* background-size: contain; */
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+}
+#container{
+    
+    width: 80vw;
+    margin: 40px auto;
+}
+#inp{
+    font-size: 20px;
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+    color: coral;
+    text-shadow: 2px 2px 2px black;
+}
+button{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#dinp{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+#inp:focus{
+    outline: none;
+}
+#movies{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin-top: 20px;
+
+}
+img{
+    transition: 200ms;
+}
+img:hover{
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.1);
+    
+}
+
+.card{
+    /* border: 2px solid black; */
+    margin: 20px;
+    text-align: center;
+    transition: 300ms;
+    width: 250px;
+    /* background-color: white   ; */
+}
+.button {
+    background-color: #0077b6;
+    border: none;
+    color: white;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+  }
+  h3{
+      text-shadow: 1px 1px 2px yellow;
+  }
